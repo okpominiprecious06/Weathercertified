@@ -1,0 +1,27 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.header {
+    display:  flex;
+    justify-content: space-between;
+}
+
+.header .logo {
+    font-size: 12px;
+}
+.header .logo span{
+    color:red;
+}
+
+.header .menu ul {
+    display: flex;
+    align-items: center;
+    list-style: none;
+
+}
+.header .menu ul li{
+    margin: 0 10px
+}
